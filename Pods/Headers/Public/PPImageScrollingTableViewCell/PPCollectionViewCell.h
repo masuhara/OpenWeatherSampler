@@ -1,0 +1,1 @@
+../../../PPImageScrollingTableViewCell/PPImageScrollingTableViewControllerDemo/PPImageScrollingTableViewCell/PPCollectionViewCell.h
