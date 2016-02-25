@@ -12,7 +12,11 @@
 		7A51560B1C7F48BD0049D318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A51560A1C7F48BD0049D318 /* ViewController.m */; };
 		7A51560E1C7F48BD0049D318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A51560C1C7F48BD0049D318 /* Main.storyboard */; };
 		7A5156101C7F48BD0049D318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A51560F1C7F48BD0049D318 /* Assets.xcassets */; };
-		7A5156131C7F48BD0049D318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5156111C7F48BD0049D318 /* LaunchScreen.storyboard */; };
+		7A51561E1C7F48D50049D318 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A51561B1C7F48D50049D318 /* Default-568h@2x.png */; };
+		7A51561F1C7F48D50049D318 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A51561C1C7F48D50049D318 /* Default-667h@2x.png */; };
+		7A5156201C7F48D50049D318 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A51561D1C7F48D50049D318 /* Default-736h@3x.png */; };
+		7A5156291C7F4AE90049D318 /* SampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5156281C7F4AE90049D318 /* SampleView.m */; };
+		7A51562D1C7F4B080049D318 /* ColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A51562C1C7F4B080049D318 /* ColorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +28,14 @@
 		7A51560A1C7F48BD0049D318 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A51560D1C7F48BD0049D318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A51560F1C7F48BD0049D318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A5156121C7F48BD0049D318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5156141C7F48BD0049D318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A51561B1C7F48D50049D318 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7A51561C1C7F48D50049D318 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		7A51561D1C7F48D50049D318 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		7A5156271C7F4AE90049D318 /* SampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleView.h; sourceTree = "<group>"; };
+		7A5156281C7F4AE90049D318 /* SampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleView.m; sourceTree = "<group>"; };
+		7A51562B1C7F4B080049D318 /* ColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
+		7A51562C1C7F4B080049D318 /* ColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +68,12 @@
 		7A5156021C7F48BD0049D318 /* OpenWeatherSampler */ = {
 			isa = PBXGroup;
 			children = (
-				7A5156061C7F48BD0049D318 /* AppDelegate.h */,
-				7A5156071C7F48BD0049D318 /* AppDelegate.m */,
-				7A5156091C7F48BD0049D318 /* ViewController.h */,
-				7A51560A1C7F48BD0049D318 /* ViewController.m */,
-				7A51560C1C7F48BD0049D318 /* Main.storyboard */,
-				7A51560F1C7F48BD0049D318 /* Assets.xcassets */,
-				7A5156111C7F48BD0049D318 /* LaunchScreen.storyboard */,
-				7A5156141C7F48BD0049D318 /* Info.plist */,
+				7A51562A1C7F4AEF0049D318 /* Managers */,
+				7A5156211C7F48DE0049D318 /* Resources */,
+				7A5156221C7F48E30049D318 /* Views */,
+				7A5156231C7F48E90049D318 /* Controllers */,
+				7A5156251C7F4AAE0049D318 /* Storyboard */,
+				7A5156241C7F48F10049D318 /* Models */,
 				7A5156031C7F48BD0049D318 /* Supporting Files */,
 			);
 			path = OpenWeatherSampler;
@@ -74,9 +82,81 @@
 		7A5156031C7F48BD0049D318 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A5156141C7F48BD0049D318 /* Info.plist */,
 				7A5156041C7F48BD0049D318 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A51561A1C7F48D50049D318 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				7A51561B1C7F48D50049D318 /* Default-568h@2x.png */,
+				7A51561C1C7F48D50049D318 /* Default-667h@2x.png */,
+				7A51561D1C7F48D50049D318 /* Default-736h@3x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		7A5156211C7F48DE0049D318 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A5156261C7F4AC50049D318 /* Images */,
+				7A51560F1C7F48BD0049D318 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7A5156221C7F48E30049D318 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A5156271C7F4AE90049D318 /* SampleView.h */,
+				7A5156281C7F4AE90049D318 /* SampleView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7A5156231C7F48E90049D318 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A5156061C7F48BD0049D318 /* AppDelegate.h */,
+				7A5156071C7F48BD0049D318 /* AppDelegate.m */,
+				7A5156091C7F48BD0049D318 /* ViewController.h */,
+				7A51560A1C7F48BD0049D318 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7A5156241C7F48F10049D318 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7A5156251C7F4AAE0049D318 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7A51560C1C7F48BD0049D318 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7A5156261C7F4AC50049D318 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A51561A1C7F48D50049D318 /* Defaults */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7A51562A1C7F4AEF0049D318 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7A51562B1C7F4B080049D318 /* ColorManager.h */,
+				7A51562C1C7F4B080049D318 /* ColorManager.m */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5156131C7F48BD0049D318 /* LaunchScreen.storyboard in Resources */,
 				7A5156101C7F48BD0049D318 /* Assets.xcassets in Resources */,
+				7A51561F1C7F48D50049D318 /* Default-667h@2x.png in Resources */,
+				7A5156201C7F48D50049D318 /* Default-736h@3x.png in Resources */,
 				7A51560E1C7F48BD0049D318 /* Main.storyboard in Resources */,
+				7A51561E1C7F48D50049D318 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5156291C7F4AE90049D318 /* SampleView.m in Sources */,
 				7A51560B1C7F48BD0049D318 /* ViewController.m in Sources */,
+				7A51562D1C7F4B080049D318 /* ColorManager.m in Sources */,
 				7A5156081C7F48BD0049D318 /* AppDelegate.m in Sources */,
 				7A5156051C7F48BD0049D318 /* main.m in Sources */,
 			);
@@ -164,14 +248,6 @@
 				7A51560D1C7F48BD0049D318 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A5156111C7F48BD0049D318 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A5156121C7F48BD0049D318 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpenWeatherSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.OpenWeatherSampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpenWeatherSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.OpenWeatherSampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
